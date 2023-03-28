@@ -29,6 +29,7 @@ class App extends Component{
          <SearchBox placeholder='search monster' handleChange={e=> this.setState({searchField: e.target.value})}/>
        <CardList monsters={filterMonster}>
        </CardList>
+       
       
        
       </div>
